@@ -1,0 +1,87 @@
+body{
+    background-image: url(images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center ;
+    font-family: font-family: 'Montserrat', sans-serif; ;
+}
+h1{
+    color: rgb(99, 88, 88);
+    text-align: center;
+    font-size: 6rem;
+    margin: 0;
+    text-emphasis: italic ;
+    letter-spacing: .1em;
+    opacity: .6;
+    ;
+}
+.form{
+    height: 800px;
+    width: 500px;
+    margin: 4em auto;
+    padding: 1em;
+    border: 1px gold solid;
+    border-radius: 5%;
+    background-color:rgb(142, 190, 190);
+    opacity: .8;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2em;
+    box-shadow: blanchedalmond;
+}
+.form-items{
+    width: 100%;
+    margin: auto;
+}
+#textarea{
+    width: 90%;
+    height: 30px;
+    font-style: 1em;
+    letter-spacing: .06em;
+    text-align: center;
+    margin: 3px;
+    
+}
+#button{
+    width: 80%;
+    height: 40px;
+    font-size: 1.2em;
+    font-family: cursive;
+    letter-spacing: .1em;
+}
+#button:hover{
+    background-color: rgb(126, 126, 231);
+    color: white;
+}
+#messagebox{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    font-family: cursive;
+    font-size: 1.0em;
+    text-align: center;
+}
+#select{
+    width: 50%;
+    height: 30px;
+}
+#contact{
+    font-weight: bold;
+    margin: auto;
+    letter-spacing: .1em;
+}
+.form p{
+    color: rgb(17, 17, 56);
+}
+h4{
+    margin: .2em 0 .2em 0;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: .2em;
+}
+input:focus {
+    border-bottom: 3px rgb(11, 9, 121) solid;
+}
+input{
+    margin-bottom: 5px;
+} 

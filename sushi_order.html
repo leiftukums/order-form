@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="sushi_order.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>CONTACT US:</h1>
+    <div class="form">
+        <div class="form-items">
+            <label for="" id="contact"> Full Name:</label><br>
+            <input type="text" name="" id="textarea" placeholder="What's your name?" required><br>
+            <label for="email" id="contact" >E-Mail Address:</label><br>
+            <input type="email" name="" id="textarea" placeholder="What's a good email?"><br>
+            <label for="" id="contact"> Phone Number(optional)</label><br>
+            <input type="text" name="" id="textarea" placeholder="Want to hear from us?"><br>
+            <label for="event date" id="contact">Event Date:</label><br>
+            <input type="date" id="select" name="event"><br>
+            <label for="cars" id="contact">Where's the party?</label><br>
+                <select name="location" id="location">
+                <option value="home">A Home</option>
+                <option value="office">An Office</option>
+                <option value="venue">Licensed Venue/Building</option>
+                <option value="outside">Outside(electricity required)</option>
+                </select><br>
+
+
+            <label for="" id="contact"> Location Zip Code</label><br>
+            <input type="text" name="location" id="contact"><br>
+
+        <h4>Choose your Catch:</h4>
+            <label class="container" id="contact">Guppies 
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label><br>
+            <label class="container" id="contact">Catch & Release
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label><br>
+            <label class="container" id="contact">It's A Keeper
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label><br>
+            <label class="container" id="contact">The Big Tuna
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label><br><br>
+            <form action="/action_page.php" id="usrform">
+              </form>
+              <label for="mesagebox"><h4>Any notes for us?</h4></strong></label><br>
+              <textarea name="comment" id="messagebox" form="usrform" placeholder="Leave us a note!"></textarea>
+              <br>
+              <button type="submit" id="button"> Send it!</button>
+        </div>
+        <p><em>We will be reaching out to you for a free, personalized consultation to ensure you have the best experience!</em></p>
+    
+</body>
+</html>
